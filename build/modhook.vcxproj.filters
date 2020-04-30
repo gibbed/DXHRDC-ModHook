@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="project">
+      <UniqueIdentifier>{eb6a150e-30e0-49d5-9b00-321c2677f79b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="stdafx">
+      <UniqueIdentifier>{8bf1bcd3-b2f4-42ed-afcb-77564cfbada1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{35b9bf16-d6d2-4a5e-877f-2c061a730b23}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\modhook\crc32.cpp">
+      <Filter>project</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\modhook\hook.cpp">
+      <Filter>project</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\modhook\dllmain.cpp">
+      <Filter>project</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\modhook\patch.cpp">
+      <Filter>project</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\modhook\hook_v0.cpp">
+      <Filter>project</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\modhook\stdafx.cpp">
+      <Filter>stdafx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\modhook\dfengine.cpp">
+      <Filter>project</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\modhook\targetver.h">
+      <Filter>stdafx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\modhook\crc32.hpp">
+      <Filter>project</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\modhook\hook.hpp">
+      <Filter>project</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\modhook\patch.hpp">
+      <Filter>project</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\modhook\hook_v0.hpp">
+      <Filter>project</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\modhook\cdc_v0.hpp">
+      <Filter>project</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\modhook\stdafx.hpp">
+      <Filter>stdafx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\modhook\resource.h">
+      <Filter>resource</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\src\modhook\resource.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
