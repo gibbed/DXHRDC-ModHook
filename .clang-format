@@ -1,0 +1,20 @@
+---
+BasedOnStyle: Google
+AlwaysBreakAfterDefinitionReturnType: None
+AlwaysBreakAfterReturnType: None
+BreakBeforeBraces: Allman
+ColumnLimit: '120'
+DerivePointerAlignment: 'false'
+IncludeCategories:
+  - Regex: '^("|<)stdafx\.h(pp)?("|>)'
+    Priority: -1
+  - Regex: '^<'
+    Priority: 1
+  - Regex: '.*'
+    Priority: 2
+IndentCaseLabels: 'true'
+Language: Cpp
+Standard: Cpp11
+UseTab: Never
+
+...
